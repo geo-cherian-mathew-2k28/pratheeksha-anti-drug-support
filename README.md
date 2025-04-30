@@ -1,41 +1,96 @@
-# 🌿 Pratheeksha – Anonymous Support Platform for Drug Recovery
 
-**Pratheeksha** is a one-of-a-kind online platform built to support individuals recovering from drug addiction. It provides a safe and anonymous environment where users can seek help, talk to mentors, join supportive communities, and begin their healing journey without fear or judgment.
+<h1 align="center">🌿 Pratheeksha</h1>
+<p align="center">A safe digital space for people battling addiction to seek support and connect anonymously with mentors.</p>
 
-🔗 **Live Website:** [https://pratheeksha.pages.dev](https://pratheeksha.pages.dev)
-
----
-
-## 🌟 Key Highlights
-
-- 💬 **Anonymous Chat** with trained mentors who offer personal guidance
-- 🌍 **Community Chatroom** to connect with like-minded individuals going through recovery
-- 🧑‍🤝‍🧑 **Help a Friend** feature to refer someone in need
-- 🗓️ **Session Requests** for organizations to conduct awareness/guidance programs
-- 🫶 **Volunteer Signup** to become part of the Pratheeksha mission
-- 🚫 **Mentor Moderation** for community safety (block/report users)
-- 🛡️ 100% anonymous and secure – your identity stays yours
+<p align="center">
+  <a href="https://pratheeksha.pages.dev/" target="_blank"><strong>🚀 Live Website</strong></a>
+</p>
 
 ---
 
-## 🚀 How to Use
+## 🌟 About
 
-1. Visit the website: [pratheeksha.pages.dev](https://pratheeksha.pages.dev)
-2. Choose your path — chat anonymously, join a group, or refer a friend.
-3. Get help. Give help. Be part of a hopeful change.
+**Pratheeksha** (meaning *Hope*) is a privacy-first support platform for individuals dealing with substance abuse. It offers an **anonymous chat system** to connect users with verified mentors, giving them the help they need—when they need it.
+
+If no staff is online, the platform gently redirects users to an emergency helpline for immediate assistance.
 
 ---
 
-## 🤝 Contributions
+## ✨ Features
 
-Feel free to fork, clone, or suggest ideas through pull requests. Every contribution brings hope to someone.
+- 🔒 **Anonymous live chat** with mentors
+- 💬 **Internal staff chat** for team coordination
+- 📂 Chats auto-deleted from database after session ends
+- 📱 Mobile-friendly, responsive UI
 
-> _"The first step to healing is feeling heard — and Pratheeksha gives you that space."_ 💚
+---
 
+## 🛠 Tech Stack
 
-## 🚀 How to Run Locally
+| Frontend | Backend |
+|---------|---------|
+| HTML/CSS/JS | Firebase |
 
-```bash
-git clone https://github.com/your-username/pratheeksha.git
-cd pratheeksha
-# Open index.html in your browser or use Live Server
+---
+
+## 📸 Screenshots
+
+> _Visual glimpse of Pratheeksha in action_
+
+<div align="center">
+
+<img src="./screenshots/main.webp" width="30%" style="margin: 5px;" />
+<img src="./screenshots/main%202.webp" width="30%" style="margin: 5px;" />
+<img src="./screenshots/main%203.webp" width="30%" style="margin: 5px;" />
+
+<img src="./screenshots/main%204.webp" width="30%" style="margin: 5px;" />
+<img src="./screenshots/main%205.webp" width="30%" style="margin: 5px;" />
+<img src="./screenshots/get-help%201.webp" width="30%" style="margin: 5px;" />
+
+<img src="./screenshots/get-help%202.webp" width="30%" style="margin: 5px;" />
+<img src="./screenshots/get-help%203.webp" width="30%" style="margin: 5px;" />
+<img src="./screenshots/chat.png" width="30%" style="margin: 5px;" />
+
+<img src="./screenshots/mentor%20dashboard.png" width="30%" style="margin: 5px;" />
+<img src="./screenshots/community.png" width="30%" style="margin: 5px;" />
+
+</div>
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/your-username/pratheeksha.git
+   ```
+2. Open `index.html` in your browser or deploy it to Cloudflare Pages.
+3. Add Firebase configuration to `/chat/firebase-config.js` and `/community/script.js` .
+4. Deploy Cloudflare Functions for backend logic.
+
+---
+
+## 🤝 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://karthiksambhur.pages.dev/">
+        <img src="https://avatars.githubusercontent.com/u/177924019" width="100px;" alt="Sambhu"/>
+        <br /><sub><b>Karthik Sambhu R</b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/geo-cherian-mathew-2k28">
+        <img src="https://avatars.githubusercontent.com/u/167351277?v=4" width="100px;" alt="Geo Cherian Mathew"/>
+        <br/><sub><b>Geo Cherian Mathew</b></sub>
+      </a>
+      <br/>
+    </td>
+  </tr>
+</table>
+
+---
+
+> Made with care and compassion ✨
